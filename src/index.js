@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CallbackHook } from './components/06-memo/CallbackHook';
+import {BrowserRouter} from 'react-router-dom'
+// import { AppRouter } from './components/09-useContext/AppRouter';
+// import { CallbackHook } from './components/06-memo/CallbackHook';
+// import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 // import { MemoHook } from './components/06-memo/MemoHook';
 //import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
 //import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
@@ -13,9 +17,8 @@ import { CallbackHook } from './components/06-memo/CallbackHook';
 //import { SimpleForm } from './components/02-useEffect/SimpleForm';
 //import { HookApp } from './HookApp';
 
-
 ReactDOM.render(
-    <CallbackHook />,
+    <MainApp />,
   document.getElementById('root')
 );
 
